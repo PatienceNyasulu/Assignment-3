@@ -5,17 +5,14 @@ import pickle
 from preprocessing_utils import *
 
 st.write("""
-    # Web Content Mining
+    # Newspaper Article Clustering
 """)
 
-st.write("""
-    A web-based platform that displays a cluster and the URLs of related stories in that cluster, given a selected category based on 4 online newspapers.
-""")
 
 articles = pd.read_csv('clustered_articles.csv')
 
 # Get selected category
-selected_category = st.selectbox("Select a category:", ['politics', 'business', 'culture', 'sports'])
+selected_category = st.selectbox("Select a category:", ['politics', 'business', 'lifestyle', 'sports'])
 
 #st.write('Selected Category:', selected_category)
 
