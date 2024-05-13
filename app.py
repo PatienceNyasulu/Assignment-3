@@ -15,7 +15,7 @@ st.write("""
 articles = pd.read_csv('clustered_articles.csv')
 
 # Get selected category
-#selected_category = st.selectbox("Select a category:", ['politics', 'business', 'culture', 'sports'])
+selected_category = st.selectbox("Select a category:", ['politics', 'business', 'culture', 'sports'])
 
 #st.write('Selected Category:', selected_category)
 
