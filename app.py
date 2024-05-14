@@ -7,6 +7,7 @@ from preprocessing_utils import *
 st.write("""
     # Newspaper Article Clustering
 """)
+st.markdown('[Link to GitHub code](https://github.com/PatienceNyasulu/Web_content-mining)')
 
 
 articles = pd.read_csv('clustered_articles.csv')
