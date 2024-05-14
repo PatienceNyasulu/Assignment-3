@@ -13,7 +13,7 @@ st.markdown('[Link to GitHub code](https://github.com/PatienceNyasulu/Web_conten
 articles = pd.read_csv('clustered_articles.csv')
 
 # Get selected category
-selected_category = st.selectbox("Select a category:", ['politics', 'business', 'lifestyle', 'sport'])
+selected_category = st.selectbox("Select a category:", ['politics', 'business', 'culture', 'sport'])
 
 #st.write('Selected Category:', selected_category)
 
